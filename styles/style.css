@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+*{
+	box-sizing: border-box;
+}
+
+h1,h2,h3{
+	margin: 6px 0;
+	font-weight: normal;
+}
+
+h3{
+	font-weight: bold;
+	font-size: 0.9rem;
+}
+
+body{
+	background-color: #181818;
+	color: #ddd;
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	-webkit-tap-highlight-color: transparent;
+}
+
+small{
+	display: block;
+}
+
+.header{
+	width: 100%;
+	background-color: #dc3d4b;
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem 2rem;
+}
+
+footer{
+	text-align: center;
+	width: 100%;
+	padding: 1rem 2rem;
+	background-color: #242424;
+}
+
+a{
+	text-decoration: none;
+	color: #4CD964;
+}
+
+a:hover{
+	opacity: 0.8;
+}
+
+input,button,select{
+	font-family: inherit;
+	padding: 8px 14px;
+	border-radius: 4px;
+	background-color: transparent;
+	color: inherit;
+	border: 2px solid #242424;
+	outline: none;
+}
+
+select option{
+	background-color: #242424;
+}
+
+.content{
+	padding: 2rem;
+	display: flex;
+}
+
+.sidebar{
+	background-color: #242424;
+	min-width: 240px;
+	padding: 0.5rem 1rem;
+	border-radius: 4px;
+	height: 520px;
+}
+
+#category-links a{
+	display: block;
+	color: #ccc;
+	padding: 3px;
+}
+
+#active-link{
+	opacity: 0.8;
+}
+
+.right{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+@media only screen and (max-width: 720px){
+	.content{
+		display: block;
+		padding: 1rem;
+	}
+
+	.sidebar{
+		width: 100%;
+	}
+
+	.right{
+		margin-left: 0 !important;
+	}
+	.prvwdv{display: block !important;}
+	.prvwdv div{margin: 0 !important;}
+}
+
+.card{
+	background-color: #080808;
+	border-radius: 6px;
+	padding: 14px;
+	margin: 0.75rem;
+	max-width: 168px;
+}
+
+.roles img{
+	width: 18px;
+}
+
+a img{
+	width: 140px !important;
+}
+
+.card p, .card span{
+	font-size: 15px;
+	margin: 4px 0;
+}
+
+.card p{
+	color: #bbb;
+}
+
+.roles{
+	display: flex;
+	align-items: center;
+}
+
+.roles p, .hgobr{
+	display: inline-block;
+	background-color: #18944c;
+	padding: 2px 3px;
+	border-radius: 3px;
+	margin-left: 6px !important;
+	color: #ddd !important;
+}
+
+.category{
+	display: inline-block;
+	background-color: #18944c;
+	padding: 2px 3px;
+	border-radius: 3px;
+	color: #ddd !important;
+}
+
+.prvwdv{
+	width: 100%;
+	background-color: #b53c4655;
+	border-radius: 6px;
+	padding: 0.5rem 1rem;
+	display: flex;
+}
+
+.prvwdv div:nth-child(2){
+	margin-left: 1rem !important;
+}
+
+.right div{
+	color: #bbb;
+}
+
+span{
+	color: #ddd;
+}
+
+h3{
+	color: #eee;
+}
